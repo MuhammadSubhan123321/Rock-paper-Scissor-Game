@@ -1,48 +1,42 @@
-/* Rock-Paper-Scissor.css */
 body {
+  background-color: rgb(25, 25, 25);
+  color: white;
   font-family: Arial;
-  background-color: black;   
-  color: white;             
 }
 
 .title {
   font-size: 30px;
-  font-weight: bold;            
-}
-
-/* Circle buttons (match HTML: class="move-button") */
-.move-button {
-  width: 120px;               
-  height: 120px;
-  border-radius: 60%;        
-  margin-right : 10px;
-  cursor: pointer;
-  border: 3px solid white;
-  background-color: transparent;
-}
-
-.move-button:hover {
-  background-color: gray;    
-}
-
-/* Icon inside button */
-.move-icon {
-  height: 50px;              
-}
-
-/* Reset button */
-.reset-score-button {
-  padding: 10px 20px;
-  border-radius: 20px;
-  border: none;
-  cursor: pointer;
-  background-color: white;
-  color: black;
   font-weight: bold;
-  margin-top: 20px;
 }
 
-.reset-score-button:hover {
+.move-icon {
+  height: 50px;
+}
+
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.score {
+  margin-top: 60px;
+}
+
+.reset-score-button,
+.auto-play-button,
+
+.reset-confirm-button {
   background-color: white;
   border: none;
   font-size: 15px;
@@ -50,11 +44,6 @@ body {
   cursor: pointer;
 }
 
-.result{
-font-size: 25px;
-font-weight: bold;
-margin-top: 50px;
-}
-.score{
-  margin-top: 60px;
+.reset-confirm-button {
+  margin-left: 10px;
 }
