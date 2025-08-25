@@ -3,7 +3,7 @@ Rock Paper Scissors 🎮✊✋✌️
 **A simple yet interactive Rock-Paper-Scissors game built with HTML, CSS, and JavaScript.
 The game allows the user to play against the computer, keeps track of wins/losses/ties using localStorage, and provides a clean responsive UI with hover effects.**
 
-🚀 Features
+🚀 **Features**
 
 🎨 Modern UI with black theme and circular buttons.
 
@@ -17,16 +17,19 @@ The game allows the user to play against the computer, keeps track of wins/losse
 
 ⚡ Hover effects and transparent icon backgrounds for better user experience.
 
-📂 **Project Structure**
-rock-paper-scissors/
-│
-├── index.html              # Main HTML file
-├── Rock-Paper-Scissor.css  # Stylesheet for UI
-├── Rock-Paper-Scissor.js   # Game logic
-├── rock.png                # Rock icon
-├── paper.png               # Paper icon
-├── scissors.png            # Scissors icon
-└── README.md               # Project documentation
+⏯️ Auto Play mode – computer plays automatically every second
+
+🎮 Keyboard shortcuts:
+
+- r → Rock
+
+- p → Paper
+
+- s → Scissors
+
+- a → Auto Play / Stop Auto Play
+
+- Backspace → Reset Score Confirmation
 
 🛠️ **Technologies Used**
 
@@ -34,21 +37,21 @@ rock-paper-scissors/
 
 2- CSS3 – Styling (dark mode, circular buttons, hover effects).
 
-3- JavaScript (ES6) – Game logic, score handling, localStorage.
+3- JavaScript (ES6) – Game logic, Auto Play, score handling, localStorage.
 
 🎮 **How to Play**
 
--Open the index.html file in your browser.
+1- Open index.html in your browser
 
--Click on Rock, Paper, or Scissors (or press Enter if you implement keyboard input).
+2- Click Rock, Paper, or Scissors (or use keyboard shortcuts r, p, s)
 
--The computer will randomly choose its move.
+3- The computer will randomly select a move
 
--Results will be displayed along with both moves.
+4- Results are displayed instantly along with updated scores
 
--The scoreboard updates after every round.
+5- Use Auto Play (a) to let the game run automatically
 
--Use the Reset Score button to clear history.
+6- Press Backspace or click Reset Score to clear stats (confirmation required)
 
 ⚠️ **Important Note**
 
@@ -59,16 +62,6 @@ rock-paper-scissors/
 -paper.png
 
 -scissors.png ✅ (not scissor.png)
-
-🔮 **Future Improvements**
-
--Add keyboard shortcuts for faster play.
-
--Implement sound effects for moves and results.
-
--Add difficulty levels (computer bias).
-
--Deploy online with GitHub Pages / Netlify.
 
 👨‍💻 **Author**
 
