@@ -63,6 +63,6 @@ The game allows the user to play against the computer, keeps track of wins/losse
 
 -scissors.png ✅ (not scissor.png)
 
-👨‍💻 **Author**
+👨‍💻 **Developer**
 
--Developed by Muhammad Subhan ✨
+Muhammad Subhan – Full-Stack Developer (in progress)
